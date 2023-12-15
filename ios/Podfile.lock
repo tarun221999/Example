@@ -1111,6 +1111,12 @@ PODS:
     - React-jsi (= 0.73.0)
     - React-logger (= 0.73.0)
     - React-perflogger (= 0.73.0)
+  - RNCMaskedView (0.3.1):
+    - React-Core
+  - RNGestureHandler (2.14.0):
+    - glog
+    - RCT-Folly (= 2022.05.16.00)
+    - React-Core
   - SocketRocket (0.6.1)
   - Yoga (1.14.0)
 
@@ -1187,6 +1193,8 @@ DEPENDENCIES:
   - React-runtimescheduler (from `../node_modules/react-native/ReactCommon/react/renderer/runtimescheduler`)
   - React-utils (from `../node_modules/react-native/ReactCommon/react/utils`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - "RNCMaskedView (from `../node_modules/@react-native-masked-view/masked-view`)"
+  - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -1301,6 +1309,10 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/react/utils"
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
+  RNCMaskedView:
+    :path: "../node_modules/@react-native-masked-view/masked-view"
+  RNGestureHandler:
+    :path: "../node_modules/react-native-gesture-handler"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -1364,6 +1376,8 @@ SPEC CHECKSUMS:
   React-runtimescheduler: 77543c74df984ce56c09d49d427149c53784aaf6
   React-utils: 42708ea436853045ef1eaff29996813d9fbbe209
   ReactCommon: 851280fb976399ca1aabc74cc2c3612069ea70a2
+  RNCMaskedView: 090213d32d8b3bb83a4dcb7d12c18f0152591906
+  RNGestureHandler: 61bfdfc05db9b79dd61f894dcd29d3dcc6db3c02
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   Yoga: 44003f970aa541b79dfdd59cf236fda41bd5890f
 
